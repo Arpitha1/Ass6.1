@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal">
+
+    <fragment
+        android:layout_width="match_parent"
+        android:layout_height="0px"
+        android:name="com.example.abhi.storage1.SimpleAddition"
+        android:layout_weight="1"
+        android:id="@+id/fragment"
+        tools:layout="@layout/activity_main" />
+</LinearLayout>
